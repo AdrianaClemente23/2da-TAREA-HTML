@@ -1,0 +1,31 @@
+.contenedor{
+    grid-template-columns: 360px 360px 360px 360px;
+    grid-template-rows: 350px 400px 450px 150px;
+    display: grid;
+    grid-template-areas: /*como se quiere distribuir*/
+    'enc enc enc enc'
+    'sec sec sec sec'
+    'asi asi asi asi'
+    'pie pie pie pie'
+    ;
+    
+}
+.tabla1{
+    background-color: rgb(255, 0, 191);
+    grid-area: enc;
+}
+.tabla2{
+    background-color: rgb(181, 21, 21);
+    grid-area: sec;
+}
+
+.tabla3 {
+    background-color: palegreen;
+    grid-area: asi;
+}
+
+footer{
+    background-color: rgb(12, 3, 20);
+    grid-area: pie;
+    color: rgb(200, 228, 228);
+}

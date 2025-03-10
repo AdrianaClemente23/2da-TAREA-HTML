@@ -1,0 +1,26 @@
+.contenedor{
+    grid-template-columns: auto auto;
+    grid-template-rows: 300px;
+    display: grid;
+    grid-template-areas: 
+    'enc enc'
+    'tabla1 tabla2'
+    
+
+    ;
+}
+
+header{
+    background-color: aqua;
+    grid-area: enc;
+}
+
+.tabla1{
+    background-color: rgb(0, 255, 13);
+    grid-area: tabla1;
+}
+
+.tabla2{
+    background-color: rgb(185, 24, 91);
+    grid-area: tabla2;
+}
