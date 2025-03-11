@@ -11,11 +11,11 @@
     
 }
 .tabla1{
-    background-color: rgb(255, 0, 191);
+    background-color: rgb(194, 147, 182);
     grid-area: enc;
 }
 .tabla2{
-    background-color: rgb(181, 21, 21);
+    background-color: rgb(21, 178, 181);
     grid-area: sec;
 }
 
